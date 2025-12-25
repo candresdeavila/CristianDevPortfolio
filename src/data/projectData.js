@@ -5,6 +5,7 @@ import mediCare from "../assets/img-projects/medicare.jpg";
 import astroFit from "../assets/img-projects/Astrofit.jpg";
 import Verbenas from "../assets/img-projects/challenge-newyze.png";
 import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
+import PortfolioDev from "../assets/img-projects/PortfolioDev.jpg";
 
 export const proyectos = [
   {
@@ -71,6 +72,18 @@ export const proyectos = [
     categoria: "frontend",
   },
   {
+    titulo: "Portfolio developers astro",
+    descripcion:
+      "This is a modern, responsive developer portfolio built with Astro and Tailwind CSS.",
+    imagen: PortfolioDev.src,
+    tecnologias: ["Astro", "tailwind", "JavaScript"],
+    demo: "https://portfolio-developers-astro.vercel.app/",
+    codigo:
+      "https://github.com/Lautaro-R-collins/Portfolio-developers-astro.git",
+    categoria: "frontend",
+  },
+
+  {
     titulo: "Legal Staff",
     descripcion:
       "Web desarrollada con Astro y Tailwind, embudo de marketing para estudios jurídicos.",
@@ -111,14 +124,14 @@ export const proyectos = [
     categoria: "backend",
   },
   {
-    titulo: "100 days coding in Js",
-    descripcion: "100 proyectos, realizados con HTML, CSS y JavaScript.",
-    imagen:
-      "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
-    tecnologias: ["Next.js", "Tailwind", "GraphQL"],
-    demo: "https://one00-proyects-web.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
-    categoria: "frontend",
+    titulo: "API REST",
+    descripcion:
+      "API RESTful construida con Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
+    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    demo: "https://back-express-todo.onrender.com",
+    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
+    categoria: "backend",
   },
   {
     titulo: "PlaniFy",
@@ -141,14 +154,15 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/challenge-Neowyze.git",
     categoria: "frontend",
   },
+
   {
-    titulo: "API REST",
-    descripcion:
-      "API RESTful construida con Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
-    categoria: "backend",
+    titulo: "100 days coding in Js",
+    descripcion: "100 proyectos, realizados con HTML, CSS y JavaScript.",
+    imagen:
+      "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
+    tecnologias: ["Next.js", "Tailwind", "GraphQL"],
+    demo: "https://one00-proyects-web.onrender.com/",
+    codigo: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
+    categoria: "frontend",
   },
 ];
