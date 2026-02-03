@@ -1,37 +1,37 @@
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
-import imgNote from "../assets/img-projects/note-app.png";
-import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
-import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
+import urbanStyle from "../assets/img-projects/CreditCardApp.png";
+import imgNote from "../assets/img-projects/TicketGenerator.png";
+import ReactEcommerce from "../assets/img-projects/BrowserExtensionManagerApp.png";
+import VintageTone from "../assets/img-projects/Rickandmortyapp.png";
 
 export const proyectos = [
     {
-    titulo: "Vintage Tone",
+    titulo: "Rick and Morty App",
     imagen: VintageTone.src,
-    tecnologias: ["Vue.js", "Tailwind", "Express", "MongoDB"],
-    demo: "https://vintage-tone-front-vue.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/VintageTone-Front-Vue.git",
-    categoria: "fullstack",
+    tecnologias: ["Javascript", "Tailwind", "API", "WebComponents"],
+    demo: "https://api-rick-and-morty-cyan.vercel.app/",
+    codigo: "https://github.com/candresdeavila/API-Rick-and-Morty.git",
+    categoria: "Junior",
   },
   {
-    titulo: "React Tiendita",
+    titulo: "Extensions Manager App",
     imagen: ReactEcommerce.src,
-    tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
-    demo: "https://react-e-commerce-three-phi.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    tecnologias: ["Javascript", "Tailwind", "Modules" ,"Components"],
+    demo: "https://browser-extensions-manager-ui-ochre.vercel.app/",
+    codigo: "https://github.com/candresdeavila/browser-extensions-manager-ui.git",
   },
   {
-    titulo: "E-commerce Urban Style",
+    titulo: "Credit Card App",
     descripcion: "Descripción breve del proyecto 1.",
     imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
+    demo: "https://vite-project-cdn-interactive-card-d.vercel.app/",
+    codigo: "https://github.com/candresdeavila/vite-project-cdn-interactive-card-details-form-main.git",
   },
   {
-    titulo: "API REST para Ecommerce",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    titulo: "Conference Ticket Generator",
+    imagen: imgNote.src,
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
+    demo: "https://conference-ticket-generator-main-eta.vercel.app/",
+    codigo: "https://github.com/candresdeavila/conference-ticket-generator-main.git",
   },
 ];

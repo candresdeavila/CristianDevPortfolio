@@ -1,74 +1,73 @@
-import imgNote from "../assets/img-projects/note-app.png";
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
+import imgNote from "../assets/img-projects/TicketGenerator.png";
+import urbanStyle from "../assets/img-projects/DentalBlueLanding.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/medicare.jpg";
 import astroFit from "../assets/img-projects/Astrofit.jpg";
-import Verbenas from "../assets/img-projects/challenge-newyze.png";
-import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
+import Verbenas from "../assets/img-projects/EcommerceProcutPage.png";
+import ReactEcommerce from "../assets/img-projects/BrowserExtensionManagerApp.png";
 import PortfolioDev from "../assets/img-projects/PortfolioDev.jpg";
-import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
-import AstroEcommers from "../assets/img-projects/astroEcommers.jpg";
+import VintageTone from "../assets/img-projects/Rickandmortyapp.png";
+import AstroEcommers from "../assets/img-projects/CreditCardApp.png";
 
 export const proyectos = [
   {
-    titulo: "Vintage Tone",
+    titulo: "Rick and Morty App",
     descripcion:
-      "Comercio electrónico completo con carrito de compras, autenticación de usuarios jwt, panel de Admin, Blog, y mas. Stack: Vue.Js - Node.js - Express - MongoDB - Tailwind - Cloudinary.",
+      "Interactive web application that displays characters from the Rick and Morty API with real-time search, status filtering, and dynamic character detail views. Built with Web Components and client-side routing. Stack: JavaScript (ES6+) · Web Components · HTML · Tailwind CSS · REST API · LocalStorage · Vite",
     imagen: VintageTone.src,
-    tecnologias: ["Vue.js", "Tailwind", "Express", "MongoDB"],
-    demo: "https://vintage-tone-front-vue.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/VintageTone-Front-Vue.git",
+    tecnologias: ["Javascript", "Tailwind", "API", "WebComponents"],
+    demo: "https://api-rick-and-morty-cyan.vercel.app/",
+    codigo: "https://github.com/candresdeavila/API-Rick-and-Morty.git",
     categoria: "fullstack",
   },
   {
-    titulo: "React Tiendita",
+    titulo: "Extensions Manager App",
     descripcion:
-      "E-commerce full stack desarrollado con React, Node.js y MongoDB. Incluye autenticación, carrito de compras, búsqueda, categorías, reseñas, etc.",
+      "Browser extension manager web app that allows users to view, enable/disable, and manage their installed browser extensions. Built with modular JavaScript and Tailwind CSS for a responsive UI. Stack: JavaScript (ES6+) · Modules · HTML · Tailwind CSS · Vite",
     imagen: ReactEcommerce.src,
-    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://react-e-commerce-three-phi.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    tecnologias: ["Javascript", "Tailwind", "Express", "Modules"],
+    demo: "https://browser-extensions-manager-ui-ochre.vercel.app/",
+    codigo: "https://github.com/candresdeavila/browser-extensions-manager-ui.git",
     categoria: "fullstack",
   },
-    {
-    titulo: "Astro Ecommerce",
+  {
+    titulo: "Credit Card App",
     descripcion:
-      "E-commerce frontend desarrollado con Astro y React. Incluye carrito de compras, categorías, y diseño responsivo.",
+      "Interactive credit card form application that provides real-time visual feedback as users input their card details. Features form validation and dynamic rendering of card information. Stack: JavaScript (ES6+) · HTML · Tailwind CSS · Vite",
     imagen: AstroEcommers.src,
-    tecnologias: ["React", "Astro", "Tailwind", "daisyUI"],
-    demo: "https://e-commer-astro.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/E-commer-Astro.git",
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
+    demo: "https://vite-project-cdn-interactive-card-d.vercel.app/",
+    codigo: "https://github.com/candresdeavila/vite-project-cdn-interactive-card-details-form-main.git",
     categoria: "frontend",
   },
   {
-    titulo: "App organizacion",
+    titulo: "Conference Ticket Generator",
     descripcion:
-      "App full-stack con funciones CRUD, creacion de tableros y listas, autentificacion de usuarios, desarrollada con MERN stack.",
+      "Web application that generates conference tickets based on user input, including name, event details, and ticket type. Features form validation and dynamic ticket rendering. Stack: JavaScript (ES6+) · HTML · Tailwind CSS · Vite",
     imagen: imgNote.src,
-    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
+    demo: "https://conference-ticket-generator-main-eta.vercel.app/",
+    codigo: "https://github.com/candresdeavila/conference-ticket-generator-main.git",
     categoria: "fullstack",
   },
   {
-    titulo: "E-commerce Urban Style",
+    titulo: "Dental Blue Landing Page",
     descripcion:
-      "E-commerce funcional de ropa y accesorios, con carrito de compras categorias y pasarela de pago desarrollado en React.",
+      "Landing page for a dental clinic, showcasing services, team, and contact information. Built with React and Tailwind CSS for a modern, responsive design.",
     imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations", "Modules"],
+    demo: "https://dentalblue.vercel.app/",
+    codigo: "https://github.com/candresdeavila/dentalblue.git",
     categoria: "fullstack",
   },
   {
-    titulo: "Tienda Artesana",
+    titulo: "Ecommerce Product Page",
     descripcion:
-      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
-    imagen:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    tecnologias: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
+      "E-commerce product page featuring product details, image gallery, and shopping cart functionality. Built with JavaScript modules and Tailwind CSS for a sleek user experience.",
+    imagen: Verbenas.src,
+    tecnologias: ["Javascript", "Tailwind", "API", "Modules"],
+    demo: "https://ecommerce-product-page-main-app.vercel.app/",
+    codigo: "https://github.com/candresdeavila/ecommerce-product-page-main-app.git",
     categoria: "fullstack",
   },
   {
@@ -145,7 +144,7 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
     categoria: "backend",
   },
-    {
+  {
     titulo: "API REST Vintage Tone App",
     descripcion:
       "API RESTful construida con Node.js, Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
