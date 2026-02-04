@@ -1,12 +1,11 @@
 export const jobs = [
   {
-    title: "Frontend Developer - Neowyze",
-    time: ["12/2024 - 05/2025"],
+    title: "Frontend Developer - Dental Blue",
+    time: ["06/2024 - 02/2025"],
     description:
-      "Mis tareas en Neowyze consisten en desarrollar webs responsivas basadas en diseños proporcionados en Figma, utilizando Astro, React, Tailwind y otras librerías frontend.",
+      "Frontend Developer experienced in translating Figma designs into responsive websites using Astro, React, and Tailwind CSS. I work within Scrum teams, utilizing Jira and Git to deliver projects like the Dental Blue clinic landing page, focusing on clean code and optimal user experience.",
     list: [
-      "Para el flujo de trabajo, utilizo Jira como herramienta de gestión y Git/GitHub como sistema de control de versiones.",
-      "Trabajo bajo la metodología ágil Scrum, con sprints de 2 semanas y dos reuniones diarias (dailies) para planificar el proyecto y presentar avances",
+      "Professional project developed as part of my frontend development work, utilizing the same industry-standard tools and workflows (Astro, React, Tailwind, Git).",
     ],
   },
   {
