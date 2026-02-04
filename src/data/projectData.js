@@ -1,11 +1,11 @@
 import imgNote from "../assets/img-projects/TicketGenerator.png";
 import urbanStyle from "../assets/img-projects/DentalBlueLanding.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
-import mediCare from "../assets/img-projects/medicare.jpg";
-import astroFit from "../assets/img-projects/Astrofit.jpg";
+import mediCare from "../assets/img-projects/FaqAccordion.png";
+import astroFit from "../assets/img-projects/SunnySideLanding.png";
 import Verbenas from "../assets/img-projects/EcommerceProcutPage.png";
 import ReactEcommerce from "../assets/img-projects/BrowserExtensionManagerApp.png";
-import PortfolioDev from "../assets/img-projects/PortfolioDev.jpg";
+import PortfolioDev from "../assets/img-projects/RoomHomepage.png";
 import VintageTone from "../assets/img-projects/Rickandmortyapp.png";
 import AstroEcommers from "../assets/img-projects/CreditCardApp.png";
 
@@ -71,39 +71,37 @@ export const proyectos = [
     categoria: "fullstack",
   },
   {
-    titulo: "Traker Ingresos-Gastos",
+    titulo: "Sunnyside Agency Landing Page (practical purpose)",
     descripcion:
-      "App que realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos.",
-    imagen:
-      "https://i.pinimg.com/736x/a4/85/c4/a485c4da3e78f4f518ddbcdb6637bacf.jpg",
-    tecnologias: ["React", "contextAPI"],
-    demo: "https://traker-gastos-ingresos.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
+      "Landing page for Sunnyside Agency (practical purpose), featuring a modern design with responsive layout and interactive elements. Built with JS Vanilla and Tailwind CSS.",
+    imagen: astroFit.src,
+    tecnologias: ["Javascript", "Tailwind", "Flex", "Modules"],
+    demo: "https://sunnyside-agency-landing-page-main-eta-rose.vercel.app/",
+    codigo: "https://github.com/candresdeavila/sunnyside-agency-landing-page-main.git",
     categoria: "frontend",
   },
   {
-    titulo: "App-clima",
+    titulo: "Faq Accordion Card (practical purpose)",
     descripcion:
-      "Aplicación hecha con React que utiliza una API para mostrar el clima en tiempo real.",
-    imagen:
-      "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
+      "FAQ accordion card component that allows users to expand and collapse sections to view answers to common questions. Built with React and Tailwind CSS for a clean, user-friendly interface.",
+    imagen: mediCare.src,
     tecnologias: ["React", "contextAPI", "tailwind"],
-    demo: "https://app-clima-om19.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/app-clima",
+    demo: "https://faq-accordion-main-two-mu.vercel.app/",
+    codigo: "https://github.com/candresdeavila/faq-accordion-main.git",
     categoria: "frontend",
   },
   {
-    titulo: "Portfolio developers astro",
+    titulo: "Room Home Page (practical purpose)",
     descripcion:
-      "This is a modern, responsive developer portfolio built with Astro and Tailwind CSS.",
+      "Responsive homepage for Room, a modern furniture store, featuring product showcases and promotional sections. Built with JavaScript Vanilla and Tailwind CSS.",
     imagen: PortfolioDev.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://portfolio-developers-astro.vercel.app/",
+    tecnologias: ["JavaScript Vanilla"],
+    demo: "https://room-homepage-master-dun.vercel.app/",
     codigo:
-      "https://github.com/Lautaro-R-collins/Portfolio-developers-astro.git",
+      "https://github.com/candresdeavila/room-homepage-master.git",
     categoria: "frontend",
   },
-
+/*
   {
     titulo: "Legal Staff",
     descripcion:
@@ -195,5 +193,5 @@ export const proyectos = [
     demo: "https://one00-proyects-web.onrender.com/",
     codigo: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
     categoria: "frontend",
-  },
+  },*/
 ];

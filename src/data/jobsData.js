@@ -8,6 +8,7 @@ export const jobs = [
       "Professional project developed as part of my frontend development work, utilizing the same industry-standard tools and workflows (Astro, React, Tailwind, Git).",
     ],
   },
+  /*
   {
     title: "Frontend Developer - Vegna",
     time: ["05/2024 - 02/2024"],
@@ -29,5 +30,5 @@ export const jobs = [
       "Frontend : React - React Router - Context api - tailwindcss",
       "Backend : API REST con Express.js, MongoDB",
     ],
-  },
+  },*/
 ];
