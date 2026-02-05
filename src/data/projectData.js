@@ -3,9 +3,9 @@ import urbanStyle from "../assets/img-projects/DentalBlueLanding.png";
 import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/FaqAccordion.png";
 import astroFit from "../assets/img-projects/SunnySideLanding.png";
-import Verbenas from "../assets/img-projects/EcommerceProcutPage.png";
+import Verbenas from "../assets/img-projects/EcommerceProductPage.png";
 import ReactEcommerce from "../assets/img-projects/BrowserExtensionManagerApp.png";
-import PortfolioDev from "../assets/img-projects/RoomHomepage.png";
+import PortfolioDev from "../assets/img-projects/RoomHomePage.png";
 import VintageTone from "../assets/img-projects/Rickandmortyapp.png";
 import AstroEcommers from "../assets/img-projects/CreditCardApp.png";
 
