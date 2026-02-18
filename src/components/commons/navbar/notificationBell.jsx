@@ -11,7 +11,7 @@ export default function NotificationBell() {
     { id: 1, text: "Last commits in Dental Blue Project 🚀", read: false },
     {
       id: 2,
-      text: "Migrating to Web Components",
+      text: "Migration to Web Components in progress 🔧",
       read: false,
     },
   ];
