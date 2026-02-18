@@ -1,10 +1,20 @@
-import urbanStyle from "../assets/img-projects/CreditCardApp.png";
-import imgNote from "../assets/img-projects/TicketGenerator.png";
+import urbanStyle from "../assets/img-projects/DentalBlueLanding.png";
+import imgNote from "../assets/img-projects/CreditCardApp.png";
 import ReactEcommerce from "../assets/img-projects/BrowserExtensionManagerApp.png";
 import VintageTone from "../assets/img-projects/Rickandmortyapp.png";
 
 export const proyectos = [
-    {
+  {
+    titulo: "Dental Blue Landing Page",
+    descripcion:
+      "Landing page for a dental clinic, showcasing services, team, and contact information. Built with React and Tailwind CSS for a modern, responsive design.",
+    imagen: urbanStyle.src,
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations", "Modules"],
+    demo: "https://dentalblue.vercel.app/",
+    codigo: "https://github.com/candresdeavila/dentalblue.git",
+    categoria: "fullstack",
+  },
+  {
     titulo: "Rick and Morty App",
     imagen: VintageTone.src,
     tecnologias: ["Javascript", "Tailwind", "API", "WebComponents"],
@@ -22,16 +32,9 @@ export const proyectos = [
   {
     titulo: "Credit Card App",
     descripcion: "Descripción breve del proyecto 1.",
-    imagen: urbanStyle.src,
+    imagen: imgNote.src,
     tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
     demo: "https://vite-project-cdn-interactive-card-d.vercel.app/",
     codigo: "https://github.com/candresdeavila/vite-project-cdn-interactive-card-details-form-main.git",
-  },
-  {
-    titulo: "Conference Ticket Generator",
-    imagen: imgNote.src,
-    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
-    demo: "https://conference-ticket-generator-main-eta.vercel.app/",
-    codigo: "https://github.com/candresdeavila/conference-ticket-generator-main.git",
   },
 ];

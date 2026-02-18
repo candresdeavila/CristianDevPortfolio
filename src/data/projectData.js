@@ -11,6 +11,16 @@ import AstroEcommers from "../assets/img-projects/CreditCardApp.png";
 
 export const proyectos = [
   {
+    titulo: "Dental Blue Landing Page",
+    descripcion:
+      "Landing page for a dental clinic, showcasing services, team, and contact information. Built with React and Tailwind CSS for a modern, responsive design.",
+    imagen: urbanStyle.src,
+    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations", "Modules"],
+    demo: "https://dentalblue.vercel.app/",
+    codigo: "https://github.com/candresdeavila/dentalblue.git",
+    categoria: "fullstack",
+  },
+  {
     titulo: "Rick and Morty App",
     descripcion:
       "Interactive web application that displays characters from the Rick and Morty API with real-time search, status filtering, and dynamic character detail views. Built with Web Components and client-side routing. Stack: JavaScript (ES6+) · Web Components · HTML · Tailwind CSS · REST API · LocalStorage · Vite",
@@ -48,16 +58,6 @@ export const proyectos = [
     tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations"],
     demo: "https://conference-ticket-generator-main-eta.vercel.app/",
     codigo: "https://github.com/candresdeavila/conference-ticket-generator-main.git",
-    categoria: "fullstack",
-  },
-  {
-    titulo: "Dental Blue Landing Page",
-    descripcion:
-      "Landing page for a dental clinic, showcasing services, team, and contact information. Built with React and Tailwind CSS for a modern, responsive design.",
-    imagen: urbanStyle.src,
-    tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations", "Modules"],
-    demo: "https://dentalblue.vercel.app/",
-    codigo: "https://github.com/candresdeavila/dentalblue.git",
     categoria: "fullstack",
   },
   {

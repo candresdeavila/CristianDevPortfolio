@@ -8,10 +8,10 @@ export default function NotificationBell() {
 
   // Notificaciones
   const baseNotifications = [
-    { id: 1, text: "Nuevo proyecto publicado 🚀", read: false },
+    { id: 1, text: "Last commits in Dental Blue Project 🚀", read: false },
     {
       id: 2,
-      text: "Hey como va?, te comento que actualmente estoy aprendiendo desarrollo móvil con React Native",
+      text: "Migrating to Web Components",
       read: false,
     },
   ];
