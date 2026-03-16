@@ -16,7 +16,7 @@ export const proyectos = [
       "Landing page for a dental clinic, showcasing services, team, and contact information. Built with React and Tailwind CSS for a modern, responsive design.",
     imagen: urbanStyle.src,
     tecnologias: ["Javascript", "Tailwind", "RenderForm", "Validations", "Modules"],
-    demo: "https://dentalblue.vercel.app/",
+    demo: "https://dentalbluesoledad.com/",
     codigo: "https://github.com/candresdeavila/dentalblue.git",
     categoria: "fullstack",
   },
