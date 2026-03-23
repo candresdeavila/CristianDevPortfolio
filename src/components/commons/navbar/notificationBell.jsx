@@ -22,12 +22,6 @@ export default function NotificationBell() {
       ? baseNotifications[baseNotifications.length - 1].id
       : null;
 
-  // Obtener el id del último elemento no leído
-  const lastUnreadId =
-    notifications.length > 0
-      ? [...notifications].reverse().find((n) => !n.read)?.id
-      : null;
-
   // Cargar desde localStorage y mezclar con base
   useEffect(() => {
     const saved = localStorage.getItem("notifications");
@@ -36,7 +30,10 @@ export default function NotificationBell() {
     if (saved) {
       const savedArray = JSON.parse(saved);
       const savedMap = new Map(savedArray.map((n) => [n.id, n]));
-      merged = baseNotifications.map((n) => savedMap.get(n.id) || n);
+      merged = baseNotifications.map((n) => ({
+        ...n,
+        read: savedMap.get(n.id)?.read ?? n.read,
+      }));
     }
     setNotifications(merged);
   }, []);
@@ -92,7 +89,7 @@ export default function NotificationBell() {
           <div className="p-3">
             <div className="mb-2 flex items-center justify-between">
               <h4 className="text-xm font-bold text-gray-200 drop-shadow-[1px_1px_0_#7836cf]">
-                Notificaciones
+                Notifications
               </h4>
             </div>
 
@@ -105,7 +102,9 @@ export default function NotificationBell() {
                 ))}
               </ul>
             ) : (
-              <p className="text-sm text-gray-400">No hay notificaciones.</p>
+              <p className="text-sm text-gray-400">
+                There is no new notifications.
+              </p>
             )}
           </div>
         </div>
